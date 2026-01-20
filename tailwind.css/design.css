@@ -582,3 +582,64 @@
     width: 16px;
     height: 16px;
 }
+.footer {
+    width: 100%;
+    padding: 120px 20px 90px;
+    background:
+        url("PUT_YOUR_WAVE_IMAGE_URL_HERE") center center / cover no-repeat,
+        linear-gradient(180deg, #2b1055, #12002b);
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.footer-logo span {
+    background: linear-gradient(135deg, #ff2fcf, #ff9a2f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 22px;
+}
+
+.footer-socials a {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-socials a:hover {
+    transform: translateY(-3px) scale(1.08);
+    opacity: 1;
+}
+
+.footer-socials img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #cfcce8;
+    opacity: 0.7;
+}
