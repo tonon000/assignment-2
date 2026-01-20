@@ -499,3 +499,86 @@
     color: #00ff9c;
     font-weight: 600;
 }
+.host {
+    padding: 120px 20px;
+    background: radial-gradient(circle at top, #2b1055, #12002b);
+}
+
+.host-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.host-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #2a0f4f;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.host-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.host-img {
+    flex-shrink: 0;
+}
+
+.host-img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(255, 47, 207, 0.6);
+}
+
+.host-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.host-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #cfcce8;
+    opacity: 0.9;
+    max-width: 720px;
+}
+
+.host-socials {
+    display: flex;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.host-socials a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #3a1666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.host-socials a:hover {
+    transform: translateY(-3px) scale(1.08);
+    box-shadow: 0 0 18px rgba(255, 47, 207, 0.8);
+}
+
+.host-socials img {
+    width: 16px;
+    height: 16px;
+}
